@@ -1,13 +1,20 @@
-body {
-  background-color: #1f2227;
+html{
+  max-width: 500px;
+  text-align: justify;
+  margin: auto;
 }
 
-img.Foto{
-  width: 350px;
+body {
+  background-color: #1f2227;
+  font-family: verdana;
+}
+
+.Foto{
+  width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid green;
+  border: 5px solid silver;
   border-radius: 1000px
 }
 
@@ -17,15 +24,40 @@ h1 {
 }
 
 p {
-  font-family: verdana;
-  color: white;
+  color: silver;
   font-size: 20px;
-  margin: 50px;
 }
 
 li{
-  font-family: verdana;
   color: silver;
   font-size: 20px;
+  text-align: left;
+}
+
+.rodape{
   text-align: center;
+  color: silver;
+  font-size: 12px;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  align-items: center;
+}
+
+.logosw{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  align-items: center;
+  filter: invert(1); 
+}
+
+figcaption{
+  text-align: center;
+  color: silver;
 }
